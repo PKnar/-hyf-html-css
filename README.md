@@ -1,3 +1,4 @@
 # Homeworks
-https://pknar.github.io/hyf-html-css/Week0
+
+Application assignment https://pknar.github.io/hyf-html-css/Week0
 
