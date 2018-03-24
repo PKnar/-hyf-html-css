@@ -307,6 +307,26 @@ button:hover ,.nav1:hover ,.nav2:hover ,.nav3:hover,.nav4:hover {
 
 }
 
+/* media queries */
+
+@media(max-width:600px){
+
+   .container {
+        width:auto;
+    }
+
+    h1{
+        margin-left:-5px;
+    }
+
+    nav{
+        width:100px;
+        
+    }
+    nav a{
+        margin-left:-5px;
+    }
+}
 
 
 
