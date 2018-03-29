@@ -1,0 +1,57 @@
+P.K@VAIO MINGW64 ~/desktop
+$ mkdir CommandLine2
+
+P.K@VAIO MINGW64 ~/desktop
+$ cd CommandLine2
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2
+$ git init
+Initialized empty Git repository in C:/Users/P.K/Desktop/CommandLine2/.git/
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ ls
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ ls -a
+./  ../  .git/
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ touch file.txt
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ attrib +h file.txt
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ ls -a
+./  ../  .git/  file.txt
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ mkdir -p folder1/folder2/folder3/folder4
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ ls
+folder1/
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ echo "test" > fun
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ echo "another test" >> fun
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ wc -c fun
+18 fun
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ cat fun
+test
+another test
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ echo "testanother test"
+testanother test
+
+P.K@VAIO MINGW64 ~/desktop/CommandLine2 (master)
+$ mv fun fun.txt
+
+
