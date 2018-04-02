@@ -355,7 +355,7 @@ section::after {
  
  #grid-flex .grid-item
  {
-    flex-basis: calc(100% / 3 - 60px);
+    flex-basis: calc(100% / 3 - 65px);
  }
   
  #grid-flex .grid-item:nth-child(2) , .grid-item:nth-child(1)
