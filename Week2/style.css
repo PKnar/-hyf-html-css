@@ -278,7 +278,7 @@ section::after {
  }
 
 
-/*  */
+/*   */
 
 @media only screen and (max-width:320px), (min-width:321px) and (max-width:480px) , (min-width:481px) and (max-width:770px){
     
@@ -323,10 +323,7 @@ section{
    background-size: cover;
    background-position: center;
    width:100%;
-   background-attachment: fixed;
-
-  
-}
+ }
 
 section:nth-child(1){
     margin-top: 50%;
