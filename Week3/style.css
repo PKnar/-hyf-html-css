@@ -191,11 +191,11 @@ p a:hover{
     width:100%;
 }
 
-.content-section, .img-section h1, .img-section p { 
+.content-section, .img-section h2, .img-section p { 
     padding:23px;
 }
 
-.img-section h1 , .content-section h1{
+.img-section h2 , .content-section h2{
     font-size: 18px;
     opacity:0.9;
 }
@@ -434,4 +434,7 @@ footer li{
        .bgimage{
         display: none;
     }
-}
+    .img-section h2, .img-section p {
+        visibility:hidden;
+    }
+  }
