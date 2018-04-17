@@ -67,7 +67,7 @@ header h1 a{
     margin:2px 0px;
 }
 
-.menu-box h1{
+.menu-box h2{
     font-size:13px;
     font-weight:100;
     position: relative;
@@ -360,7 +360,7 @@ footer li{
 }
 
 @media (max-width:699px){
-    .menu-box h1{
+    .menu-box h2{
         visibility: hidden;
     }
     .submit{
